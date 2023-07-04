@@ -22,3 +22,8 @@ def works_page():
 @app.route("/contact.html")
 def contact_page():
     return render_template("contact.html")
+
+
+@app.route("/work.html")
+def work_alt_page():
+    return render_template("work.html")
